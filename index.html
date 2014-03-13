@@ -27,35 +27,35 @@
 	<div role="main" class="ui-content">
     	
         <div class="center_content_contain">
-        <img src="images/pam14_logo_400x346.jpg" height="346" alt="PAM Awards 2014"/>      	
-		<p>Welcome to the Official PAM Awards 2014 App</p>
+        <img src="images/pam14_logo_400x346.jpg" width="75%" style="max-width:400px;" alt="PAM Awards 2014"/>      	
+		<p>Welcome to the Official App for the PAM Awards 2014</p>
        	</div>
        	
        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
-       <a href="#news_alerts" class="ui-btn ui-corner-all">News & Alerts</a>
        <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
        <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
-       <a href="#social_media" class="ui-btn ui-corner-all">Connect with Social Media</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
        <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
 	</div><!-- /content -->
 
 	<div data-role="footer">
-         <p class="footer_p">this app was brought to you by <a href="http://www.comtec-presentations.com/" target="_blank">Comtec Presentations</a>.</p>
+         <p class="footer_p">this app is brought to you by <a href="http://www.comtec-presentations.com/" target="_blank">Comtec Presentations</a>.</p>
 	</div><!-- /footer -->
 </div><!-- /page -->
 
 
 
 
-<!-- Start of first page -->
+<!-- Start of about page -->
 <div data-role="page" data-theme="b" id="about_pam14">
 
 	<div data-role="panel" data-position="left" data-display="overlay" id="mainpanel">
+    	<p align="center"><img src="images/pam14_logo_400x346.jpg" width="60%" style="max-width:200px;" alt="PAM Awards 2014"/></p>
 		<a href="#home" class="ui-btn ui-corner-all">Home</a>
-       <a href="#news_alerts" class="ui-btn ui-corner-all">News & Alerts</a>
+        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
        <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
        <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
-       <a href="#social_media" class="ui-btn ui-corner-all">Connect with Social Media</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
        <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
 	</div><!-- /panel -->
 
@@ -67,9 +67,142 @@
 	<div role="main" class="ui-content">
     	
         <div class="center_content_contain">
-            	
-		<p>This is the About Page</p>
+        
+        <div data-role="tabs" id="tabs">
+        
+              
+        <div data-role="navbar">
+    <ul>
+      <li><a href="#about_tab" data-ajax="false">About</a></li>
+      <li><a href="#host_tab" data-ajax="false">Host</a></li>
+      <li><a href="#sponsors_tab" data-ajax="false">Sponsors</a></li>
+    </ul>
+  </div>
+        
+  <div id="about_tab" class="ui-body-d ui-content">
+  		<img src="images/general_awards/awards.jpg" alt="PAM Awards" width="85%" style="max-width:400px; margin-top:15px; margin-bottom:15px;" />
+        <div class="clearfloat"></div>
+        <p>The PAM Awards are the highest regarded of the UK wealth management awards. Each year dozens of managers enter the Awards
+in an in-depth evaluation process and are reviewed by a panel of leading independent industry professionals.</p> 
+
+		<p>The lavish PAM Awards gala dinner celebrates the exceptional achievements of the winners and finalists, and is recognised as
+one of the outstanding dates in the senior private client professional's diary - a chance to see and
+be seen by the elite at the top end of the UK private client market.</p> 
+
+		<p>For further information about the PAM Awards gala dinner, please <a href="#contact">contact us</a>.</p>
+  </div>
+  
+  <div id="host_tab">
+  		<h2>Fred MacAuley</h2>
+  		<img src="images/fred.jpg" alt="PAM Awards" width="55%" style="max-width:200px; margin-top:15px; margin-bottom:15px;" />
+        <div class="clearfloat"></div>
+        <p>With his popular morning radio show and a string of TV credits, he is undoubtedly one of the most famous faces of Scottish comedy today.</p>
+<p>His on screen reputation and on air witticisms are the product of years of experience on the live circuit,
+including a stint as the first ever-Scottish compere at the Comedy Store in London.</p> 
+
+		<p>For more information about Fred, please see his <a href="http://www.fredmacaulay.com/" target="_blank">official website</a>.</p>
+        
+        <iframe width="280" height="210" src="//www.youtube.com/embed/-c3ub7m4feI?rel=0" frameborder="0" allowfullscreen></iframe>
+        
+  </div>
+  
+  <div id="sponsors_tab">
+  		
+        <h2>Headline Sponsor</h2>
+        <div class="sponsor">
+        <p><a href="http://www.pershing.co.uk/index.html" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/pershing.jpg" alt="Pershing" style="max-width:90px; float:left; margin-right: 10px;" /></a>Pershing has the technology and expertise to support your business' growth. Whether you are an institutional broker looking for integrated outsourcing solutions and direct access to key global markets or a private client.</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+        <h2>Event Sponsors</h2>
+        <div class="sponsor">
+        <p><a href="http://www.aberdeen-asset.co.uk/?OpenDocument&icid=ppc_uk_SN-Asset-and-Fund-Management_Fund-Management_sng_" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/aberdeen.jpg" alt="Aberdeen" style="max-width:90px; float:left; margin-right: 10px;" /></a>Aberdeen Asset Management PLC is a global investment management group, managing assets for both institutional and retail clients from offices around the world.</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+        
+       <div class="sponsor">
+        <p><a href="http://www.advent.com/" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/advent.jpg" alt="Advent" style="max-width:90px; float:left; margin-right: 10px;" /></a>We design and deliver award-winning software and services to more than 4,500 investment managers around the world.</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+           <div class="sponsor">
+        <p><a href="http://www.bitarisk.com/" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/bitarisk.jpg" alt="Bitarisk" style="max-width:90px; float:left; margin-right: 10px;" /></a>BITA Risk provides tools to measure client's attitude to risk, construct portfolios and analyse portfolio risk.</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+           <div class="sponsor">
+        <p><a href="http://www.cantor.com/" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/cantor.jpg" alt="Cantor" style="max-width:90px; float:left; margin-right: 10px;" /></a>Cantor Fitzgerald, formed in 1945 as an investment bank and brokerage business, became known for its innovation in computer-based bond brokerage.
+</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+        
+           <div class="sponsor">
+        <p><a href="http://www.thecapitalgroup.com/" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/capital.jpg" alt="Capital" style="max-width:90px; float:left; margin-right: 10px;" /></a>Since 1931, Capital Group has been singularly focused on delivering superior, consistent results for long-term investors using high-conviction portfolios, rigorous research and individual accountability.
+</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+        
+           <div class="sponsor">
+        <p><a href="http://www.source.info/signIn.action" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/source.jpg" alt="Source" style="max-width:90px; float:left; margin-right: 10px;" /></a>Source is an asset manager and one of Europe's leading Exchange Traded Product (ETP) providers, with over US$15 billion in assets under management.</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+           <div class="sponsor">
+        <p><a href="http://www.thirdfin.com/default.aspx" style="border: none; text-decoration: none;" target="_blank"><img src="images/sponsor_logos/thirdfinancial.jpg" alt="Third Financial" style="max-width:90px; float:left; margin-right: 10px;" /></a>Third Financial is a London based software products and services company exclusively focussed on the Wealth and Investment management industry.
+</p>
+        <div class="clearfloat"></div>
+		</div>
+        
+        
+
+  </div>
+       	
        	</div>
+        </div>
+       
+	</div><!-- /content -->
+
+	<div data-role="footer">
+         <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+<!-- Start of Event Schedule -->
+<div data-role="page" data-theme="b" id="schedule">
+
+	<div data-role="panel" data-position="left" data-display="overlay" id="mainpanel">
+    	<p align="center"><img src="images/pam14_logo_400x346.jpg" width="60%" style="max-width:200px;" alt="PAM Awards 2014"/></p>
+		<a href="#home" class="ui-btn ui-corner-all">Home</a>
+        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
+       <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
+       <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
+       <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
+	</div><!-- /panel -->
+
+	<div data-role="header">
+    	<a href="#mainpanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars"></a>
+		<h1>Event Schedule</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    	
+        <div class="center_content_contain">
+            	
+		<img src="images/schedule.jpg" alt="PAM Awards" width="95%" style="max-width:600px; margin-top:5px; margin-bottom:5px;" />
+        
+
+		</div>
        	
        
 	</div><!-- /content -->
@@ -78,6 +211,195 @@
          <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p>
 	</div><!-- /footer -->
 </div><!-- /page -->
+
+
+
+<!-- Start of Polls and Debates -->
+<div data-role="page" data-theme="b" id="polls_debates">
+
+	<div data-role="panel" data-position="left" data-display="overlay" id="mainpanel">
+    	<p align="center"><img src="images/pam14_logo_400x346.jpg" width="60%" style="max-width:200px;" alt="PAM Awards 2014"/></p>
+		<a href="#home" class="ui-btn ui-corner-all">Home</a>
+        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
+       <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
+       <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
+       <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
+	</div><!-- /panel -->
+
+	<div data-role="header">
+    	<a href="#mainpanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars"></a>
+		<h1>Polls & Debates</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    	
+        <div class="center_content_contain">
+            	
+		<p>All PAM Awards 2014 debates and Polls have ended.</p>
+
+		</div>
+       	
+       
+	</div><!-- /content -->
+
+	<div data-role="footer">
+         <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+<!-- Start of Connect with Social Media -->
+<div data-role="page" data-theme="b" id="social_media">
+
+	<div data-role="panel" data-position="left" data-display="overlay" id="mainpanel">
+    	<p align="center"><img src="images/pam14_logo_400x346.jpg" width="60%" style="max-width:200px;" alt="PAM Awards 2014"/></p>
+		<a href="#home" class="ui-btn ui-corner-all">Home</a>
+        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
+       <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
+       <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
+       <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
+	</div><!-- /panel -->
+
+	<div data-role="header">
+    	<a href="#mainpanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars"></a>
+		<h1>Social Media</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    	
+        <div class="center_content_contain">
+        
+        <div data-role="tabs" id="tabs">
+        
+              
+        <div data-role="navbar">
+    <ul>
+      <li><a href="#twitter_tab" data-ajax="false">Twitter</a></li>
+      <li><a href="#facebook_tab" data-ajax="false">Facebook</a></li>
+      <li><a href="#linkedin_tab" data-ajax="false">Linkedin</a></li>
+    </ul>
+  </div>
+        
+  <div id="twitter_tab" class="ui-body-d ui-content">
+  		<img src="images/twitter_icon.png" alt="Twitter" style="max-width:90px; margin-top:15px; margin-bottom:15px;" />
+        <div class="clearfloat"></div>
+        <a class="twitter-timeline" href="https://twitter.com/search?q=%23PAMAwards2014" data-widget-id="444136129126625280">Tweets about "#PAMAwards2014"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+
+  </div>
+  <div id="facebook_tab">
+  		<img src="images/facebook_icon.png" alt="Facebook" style="max-width:90px; margin-top:20px;" />  
+        <p>Get up to date with asset management activity on <a href="https://www.facebook.com/hashtag/assetmanagement" target="_blank">Facebook</a></p>
+        <img src="images/facebook_vis400x672.jpg" alt="Linkedin" width="90%" style="max-width:400px;" />
+  </div>
+  
+  <div id="linkedin_tab">
+  		<img src="images/linkedin_icon.png" alt="Linkedin" style="max-width:90px; margin-top:20px;" />
+  		<p>Get up to date with asset management activity on <a href="http://www.linkedin.com/company/pam-insight-international-ltd" target="_blank">Linkedin</a></p>
+  </div>
+  
+  
+  
+</div>
+
+		</div>
+       	
+       
+	</div><!-- /content -->
+
+	<div data-role="footer">
+         <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+
+
+
+
+<!-- Start of contact page -->
+<div data-role="page" data-theme="b" id="contact">
+
+	<div data-role="panel" data-position="left" data-display="overlay" id="mainpanel">
+    	<p align="center"><img src="images/pam14_logo_400x346.jpg" width="60%" style="max-width:200px;" alt="PAM Awards 2014"/></p>
+		<a href="#home" class="ui-btn ui-corner-all">Home</a>
+        <a href="#about_pam14" class="ui-btn ui-corner-all">About PAM 2014</a>
+       <a href="#schedule" class="ui-btn ui-corner-all">Event Schedule</a>
+       <a href="#polls_debates" class="ui-btn ui-corner-all">Polls & Debates</a>
+       <a href="#social_media" class="ui-btn ui-corner-all">Social Media</a>
+       <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
+	</div><!-- /panel -->
+
+	<div data-role="header">
+    	<a href="#mainpanel" class="ui-btn ui-shadow ui-corner-all ui-btn-inline ui-btn-icon-left ui-icon-bars"></a>
+		<h1>Contact & Feedback</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+    	
+                   	
+		<p>We would love to hear your comments & feedback! Please use the form below.</p>
+        
+        <div id="contact_form">    
+        <form method="post" action="mail.php" data-ajax="false">
+          Name: <input type="text" id="naam" name="naam" value="" placeholder="Name" required/><br>
+          E-mail: <input type="email" id="mail" name="mail" value="" placeholder="E-mail" required/><br>
+          Phone Number: <input type="tel" id="telefoon" name="telefoon" value="" placeholder="Phone"/><br>
+          Subject: <input type="text" id="onderwerp" name="onderwerp" value="" placeholder="Subject" required/><br>
+          Message:<br>
+          <textarea style="height:100px;" id="bericht" name="bericht" placeholder="Enter your message here..." required></textarea> <br />
+          <input type="submit" value="Send" name="submit" class="btn">
+         </form>
+        </div>
+                       
+       	
+       	      
+	</div><!-- /content -->
+
+	<div data-role="footer">
+         <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p>
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+
+
+
+       <div id="succes" data-role="page" data-theme="b">
+        <div data-role="header">
+            <h1>Sent Succesful</h1>
+            <a data-icon="home" data-rel="back" style="margin-top:2px;">Home</a>
+        </div>
+        <div data-role="content" data-theme="a">    
+         <p>The contact form was sent succesful!</p>
+         </form>
+        </div>
+        <div data-role="footer">
+    		<p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p> 
+        </div>
+    </div>
+
+
+
+
+        <div id="error" data-role="page" data-theme="a">
+        <div data-role="header">
+            <h1>Error</h1>
+            <a data-icon="home" data-rel="back" style="margin-top:2px;">Home</a>
+        </div>
+        <div data-role="content" data-theme="b">    
+            <p>The contact form was sent because of an error!<br/> Please try again.</p>
+            <a href="#contact" class="ui-btn ui-corner-all">Contact & Feedback</a>
+        </div>
+        <div data-role="footer">
+            <p class="footer_p">Vist <a href="http://www.pamonline.com/asp/front/awards.php" target="_blank">Pam Online</a> for further information.</p> 
+        </div>
+    </div>
 
 
 
