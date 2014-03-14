@@ -10,12 +10,23 @@
 	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile.structure-1.4.2.min.css" />
 	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
 	<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+    
+    
+
 
 </head>
 
 
 
 <body>
+
+<div data-role="page" data-theme="b" id="splash"> 
+    <div class="splash">
+        <p style="text-align:center; margin-top:250px;"><img src="images/pam14_logo_400x346.jpg" width="95%" style="max-width:400px;" alt="PAM Awards 2014"/></p>
+    </div>
+</div>
+
+
 
 <!-- Start of first page -->
 <div data-role="page" data-theme="b" id="home">
@@ -401,7 +412,13 @@ including a stint as the first ever-Scottish compere at the Comedy Store in Lond
 
 
 
+    <script>$(function() {
+  setTimeout(hideSplash, 2000);
+});
 
+function hideSplash() {
+  $.mobile.changePage("#home", "fade");
+}</script>
 
 </body>
 
